@@ -1,11 +1,3 @@
-// var mergeTwoLists = function(list1, list2) {
-//     let myArr = list1.concat(list2)
-//     myArr = myArr.sort( (a, b) => a - b )
-//     console.log(myArr);
-
-// };
-
-// mergeTwoLists([1,2,4], [1,3,4])
 
 var lengthOfLastWord = function (s) {
   let arr = s.split(" ");
@@ -24,7 +16,6 @@ var deleteDuplicates = function (head) {
     }
   }
   return arr;
-  // 2-usul return [...new Set(head)]
 };
 
 console.log(deleteDuplicates([1, 2, 3, 3, 4, 4, 5]));
